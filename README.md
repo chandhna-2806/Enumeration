@@ -33,23 +33,30 @@ Google hacking, also known as Google dorking, is a technique that involves using
 site: This operator allows you to search for pages that are within a specific website or domain. For example, "site:example.com" would search for pages that are on the example.com domain.
 Following searches for all the sites that is in the domain yahoo.com
 
+![ex03-yahoo](img/yahoo.png)
+
 filetype: This operator allows you to search for files of a specific type. For example, "filetype:pdf" would search for all PDF files.
 Following searches for pdf file in the domain yahoo.com
 
-
+![ex03-filetype](img/filetype.png)
 
 intext: This operator allows you to search for pages that contain specific text within the body of the page. For example, "intext:password" would search for pages that contain the word "password" within the body of the page.
 
+![ex03-intext](img/password.png)
 
 inurl: This operator allows you to search for pages that contain specific text within the URL. For example, "inurl:admin" would search for pages that contain the word "admin" within the URL.
 
+![ex03-admin](img/admin.png)
+
 intitle: This operator allows you to search for pages that contain specific text within the title tag. For example, "intitle:index of" would search for pages that contain "index of" within the title tag.
 
-link: This operator allows you to search for pages that link to a specific URL. For example, "link:example.com" would search for pages that link to the example.com domain.
+![ex03-indexof](img/indexof.png)
 
+link: This operator allows you to search for pages that link to a specific URL. For example, "link:example.com" would search for pages that link to the example.com domain.
+![ex03-link](img/example.png)
 cache: This operator allows you to view the cached version of a page. For example, "cache:example.com" would show the cached version of the example.com website.
 
- 
+ ![ex03-cache](img/webcache.png)
 #DNS Enumeration
 
 
@@ -61,7 +68,7 @@ Perform common SRV Record Enumeration
 Top level domain expansion
 ## OUTPUT:
 
-
+![ex03-dnsrecon](img/dnsrecon.png)
 
 
 
@@ -96,9 +103,9 @@ Telnet allows to connect to remote host based on the port no. For smtp port no i
 telnet <host address> 25 to connect
 and issue appropriate commands
   
- ##Output
+ ## Output
   
-  
+ ![ex03-telnet](img/telnet.png) 
 
 ## nmap –script smtp-enum-users.nse <hostname>
 
@@ -106,6 +113,8 @@ The smtp-enum-users.nse script attempts to enumerate the users on a SMTP server 
 
 
 ## OUTPUT:
+
+![ex03-smtpenum](img/smtpenum.png)
 
 
 ## RESULT:
